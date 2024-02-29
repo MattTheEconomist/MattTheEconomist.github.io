@@ -1,0 +1,55 @@
+@import '../../globalStyles.module.css';
+
+
+.waveContainer{
+
+    margin-bottom: -4rem;;
+}
+.blogContainerFull{
+    /* background-color: #76d4f1 */
+    background-color: var(--secondaryColor); 
+    padding-left: 4rem; 
+}
+
+.blogTitle{    
+    font-size: 2rem; 
+    font-family: var(--logoFont);
+margin-left: 6rem; 
+
+padding-top: 2rem;
+
+}
+
+
+.allTilesContainer{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.tileContainer{
+    width: 17rem; 
+    margin-left: 1rem; 
+}
+
+.imageContainer{
+    height: 5rem; 
+    content: 'image here'; 
+    background-color: rgb(128, 151, 201);
+
+
+}
+
+
+.titleText{
+    font-size: 1.2rem; 
+    font-family: var(--logoFont);
+}
+
+.snippet{
+    font-family: var(--primaryFont);
+
+}
+
+.postDate{
+    font-family: var(--primaryFont);
+}
